@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-emmet语法使用</title>
+
+    <style>
+        .one {
+            /* tac */
+            text-align: center;
+            /* ti */
+            text-indent: 2em;
+            /* w */
+            width: 200px;
+            /* h */
+            height: 100px;
+            /* w100 */
+            width: 100px;
+            /* h100 */
+            height: 100px;
+            /* ti2em */
+            text-indent: 2em;
+            /* lh26px */
+            line-height: 26px;
+            /* tdn */
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- 标签名+tab键 -->
+    <div></div>
+    <table></table>
+
+    <!-- 标签名*个数 -->
+    <!-- div*3 -->
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <!-- 父子关系 -->
+    <!-- ul>li -->
+    <ul>
+        <li></li>
+    </ul>
+
+    <!-- div>span -->
+    <div><span></span></div>
+
+    <!-- 兄弟关系 -->
+    <!-- div+p -->
+    <div></div>
+    <p></p>
+
+    <!-- 即默认的是div -->
+    <!-- .nav -->
+    <div class="nav"></div>
+    <!-- #banner -->
+    <div id="banner"></div>
+    
+    <!-- p.one -->
+    <!-- 给p标签加了一个one的class属性 -->
+    <p class="one"></p>
+    <!-- span.gray -->
+    <span class="gray"></span>
+    <ul>
+        <li id="two"></li>
+    </ul>
+
+    <!-- .demo$*5 -->
+    <div class="demo1"></div>
+    <div class="demo2"></div>
+    <div class="demo3"></div>
+    <div class="demo4"></div>
+    <div class="demo5"></div>
+
+    <!-- 我们想生成的标签里面默认显示几个文字 div{文字} -->
+    <!-- div{xxxx} -->
+    <div>pink老师不是gay</div>
+
+    <!-- div{我不喜欢男人}*5 -->
+    <div>我不喜欢男人</div>
+    <div>我不喜欢男人</div>
+    <div>我不喜欢男人</div>
+    <div>我不喜欢男人</div>
+    <div>我不喜欢男人</div>
+
+    <!-- div{我不喜欢男人$}*5 -->
+    <div>我不喜欢男人1</div>
+    <div>我不喜欢男人2</div>
+    <div>我不喜欢男人3</div>
+    <div>我不喜欢男人4</div>
+    <div>我不喜欢男人5</div>
+</body>
+</html>
